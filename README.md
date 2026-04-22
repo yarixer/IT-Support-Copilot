@@ -106,3 +106,8 @@ curl -X POST http://localhost:8000/assist   -H "Content-Type: application/json" 
 - The datasets included here are synthetic.
 - Evaluation metrics on synthetic datasets can be optimistic and should be interpreted carefully.
 - The project is positioned as an MVP / portfolio project, not as a production certification.
+
+## TODO
+- Replace the synthetic dataset with more realistic support data.
+- Strengthen retrieval evaluation with harder and more realistic benchmarks.
+- Fine-tune reranking and answer generation for more stable support responses.
