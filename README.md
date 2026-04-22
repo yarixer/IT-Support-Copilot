@@ -101,6 +101,8 @@ curl -X POST http://localhost:8000/assist   -H "Content-Type: application/json" 
   }'
 ```
 
+![request](.github/CMD2.png)
+
 ## Notes
 - The datasets included here are synthetic.
 - Evaluation metrics on synthetic datasets can be optimistic and should be interpreted carefully.
