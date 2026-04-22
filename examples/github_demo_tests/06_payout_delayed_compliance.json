@@ -1,0 +1,19 @@
+{
+  "thread_subject": "Payout is still pending much longer than usual",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "Our payout has not moved for several days and buyers are asking questions."
+    },
+    {
+      "role": "support",
+      "message": "Did you recently change account details or receive any compliance review notices?"
+    },
+    {
+      "role": "customer",
+      "message": "Yes, there is a compliance review banner after we updated beneficiary details."
+    }
+  ],
+  "country": "SG",
+  "currency": "SGD"
+}

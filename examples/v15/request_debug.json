@@ -1,0 +1,5 @@
+{
+  "query": "A customer says the payment amount was charged twice. What should I do?",
+  "payment_method": "paypal_balance",
+  "debug": true
+}

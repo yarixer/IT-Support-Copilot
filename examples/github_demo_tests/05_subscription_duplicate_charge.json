@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Subscriber says they were billed again after plan change",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "A subscriber was charged again right after we changed the plan."
+    },
+    {
+      "role": "support",
+      "message": "Was the old billing agreement cancelled or replaced?"
+    },
+    {
+      "role": "customer",
+      "message": "It looks like the previous subscription was still active when the new one started."
+    }
+  ],
+  "payment_method": "paypal_wallet",
+  "country": "US",
+  "currency": "USD"
+}

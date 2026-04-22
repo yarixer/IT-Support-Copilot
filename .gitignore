@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.cache/
+.huggingface/
+data/processed/*.csv
+data/processed/*.parquet
+reports/*.json

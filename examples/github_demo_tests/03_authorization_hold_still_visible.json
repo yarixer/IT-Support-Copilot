@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Customer still sees pending authorization after cancellation",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "The checkout was cancelled but the card holder still sees a pending hold."
+    },
+    {
+      "role": "support",
+      "message": "Was the authorization voided on the merchant side?"
+    },
+    {
+      "role": "customer",
+      "message": "Yes, we voided it, but the buyer still sees the temporary hold in online banking."
+    }
+  ],
+  "payment_method": "Visa",
+  "country": "DE",
+  "currency": "EUR"
+}

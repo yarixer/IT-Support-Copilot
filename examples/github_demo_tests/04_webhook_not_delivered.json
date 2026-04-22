@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Live webhook events are missing in production",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "Sandbox works, but live webhook events are not arriving."
+    },
+    {
+      "role": "support",
+      "message": "Do you return 2xx responses and is TLS configured correctly?"
+    },
+    {
+      "role": "customer",
+      "message": "The listener recently failed TLS checks and I do not think we consistently return 2xx."
+    }
+  ],
+  "plugin_or_stack": "custom API",
+  "country": "AU",
+  "currency": "AUD"
+}

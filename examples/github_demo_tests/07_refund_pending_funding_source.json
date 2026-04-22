@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Refund stays pending instead of completing",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "The refund has been pending for too long for a completed payment."
+    },
+    {
+      "role": "support",
+      "message": "Did the original funding source settle and is the payment still in the reversible window?"
+    },
+    {
+      "role": "customer",
+      "message": "The original card settlement looks delayed and the refund has not fully posted back yet."
+    }
+  ],
+  "payment_method": "Mastercard",
+  "country": "CA",
+  "currency": "CAD"
+}

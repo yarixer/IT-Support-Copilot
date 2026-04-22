@@ -1,0 +1,21 @@
+{
+  "thread_subject": "Customer says dispute evidence upload keeps failing",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "The evidence upload fails at the last step."
+    },
+    {
+      "role": "support",
+      "message": "What exact error do you see?"
+    },
+    {
+      "role": "customer",
+      "message": "It says file type invalid even for PDF and PNG."
+    }
+  ],
+  "payment_method": "paypal_balance",
+  "plugin_or_stack": "shopify",
+  "country": "US",
+  "currency": "USD"
+}

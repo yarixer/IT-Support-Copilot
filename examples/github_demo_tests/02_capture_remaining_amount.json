@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Partial capture seems wrong after an earlier capture",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "Our second capture attempt is failing for an already authorised order."
+    },
+    {
+      "role": "support",
+      "message": "Did the order total or earlier captures change the remaining amount?"
+    },
+    {
+      "role": "customer",
+      "message": "Yes, the requested capture looks larger than the amount left after the first partial capture."
+    }
+  ],
+  "payment_method": "guest card checkout",
+  "country": "GB",
+  "currency": "GBP"
+}

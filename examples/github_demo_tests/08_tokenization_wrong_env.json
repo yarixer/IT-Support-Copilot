@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Vault token creation fails only in live",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "Card vault tokenization works in sandbox but live token creation keeps failing."
+    },
+    {
+      "role": "support",
+      "message": "Are you using the live credentials and endpoint everywhere in the flow?"
+    },
+    {
+      "role": "customer",
+      "message": "A few calls still seem to point to older sandbox configuration values."
+    }
+  ],
+  "plugin_or_stack": "magento",
+  "country": "NL",
+  "currency": "EUR"
+}

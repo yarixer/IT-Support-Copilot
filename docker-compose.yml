@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: support-ai-postgres
+    environment:
+      POSTGRES_DB: support_ai
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: support-ai-api
+    env_file:
+      - .env
+    volumes:
+      - ./:/workspace
+      - huggingface_cache:/root/.cache/huggingface
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+  indexer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: support-ai-indexer
+    env_file:
+      - .env
+    volumes:
+      - ./:/workspace
+      - huggingface_cache:/root/.cache/huggingface
+    depends_on:
+      - postgres
+    command: python scripts/build_index.py --input data/processed/threads.csv --recreate
+    profiles: ["index"]
+
+volumes:
+  postgres_data:
+  huggingface_cache:

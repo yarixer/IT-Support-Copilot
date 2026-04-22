@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Case response times out after attachment selection",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "When we try to respond to a case with attachments the portal spins and times out."
+    },
+    {
+      "role": "support",
+      "message": "Does it fail with every file or only large ones?"
+    },
+    {
+      "role": "customer",
+      "message": "Large files seem worse, but even normal uploads sometimes fail after conversion."
+    }
+  ],
+  "plugin_or_stack": "woocommerce",
+  "country": "IT",
+  "currency": "EUR"
+}

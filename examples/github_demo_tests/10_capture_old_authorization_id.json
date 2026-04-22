@@ -1,0 +1,20 @@
+{
+  "thread_subject": "Capture request references an older authorization",
+  "messages": [
+    {
+      "role": "customer",
+      "message": "A capture call keeps failing after the buyer retries checkout."
+    },
+    {
+      "role": "support",
+      "message": "Could the capture be targeting an older authorization ID?"
+    },
+    {
+      "role": "customer",
+      "message": "Yes, the logs show we are sending a stale authorization id from an earlier attempt."
+    }
+  ],
+  "payment_method": "Amex",
+  "country": "FR",
+  "currency": "EUR"
+}
