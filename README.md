@@ -3,10 +3,9 @@
 An applied AI backend for payment-support workflows. Provides a brief response based on resolved tickets, plus the three most similar tickets(IDs) for reference. Designed for employees, not for customers.
 
 ## Stack
-- Python
+- PyTorch
 - FastAPI
 - PostgreSQL + pgvector
-- Transformers
 - Qwen embedding / reranker / generator models
 - Docker Compose for PostgreSQL
 
